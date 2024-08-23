@@ -1,32 +1,52 @@
-# Task2 Social-Media-Web-App/Site
+# 🗣️ Social Media Web Application
 
-# Social Media Web Application
-NOTE ENV KEYS HAVE BEEN STRIPPED, MUST USE OWN KEYS IN ENV AND PROXY INSIDE PACKAGE.JSON
+**NOTE:** Environment keys have been stripped; please use your own keys in `.env` and set up the proxy in `package.json`.
 
-Social media web application clone along the lines of Signal, Facebook, and Twitter. This will include functionality of posting, commenting, and sharing other user’s posts, user authentication, notifications, and private messaging.
-Using React we will able to develope our website, as well as using Node.js to handle package management.
+This project is a social media web application inspired by platforms like Signal, Facebook, and Twitter. It includes features such as posting, commenting, sharing posts, user authentication, notifications, and private messaging.
 
-# Languages/Frameworks
-React.js
-REST API
-HTML
-CSS
-JavaScript
-BCrypt
+The application is built with **React.js** for the frontend and **Node.js** for backend package management. **MongoDB** is used for data storage.
 
-# Database
-MongoDB
+## 🌟 Features
 
-# How to Start:
+- **User Authentication:** Secure login and registration system.
+- **Posting & Sharing:** Users can post updates and share others' posts.
+- **Commenting:** Comment on posts and interact with other users.
+- **Notifications:** Real-time notifications for activities.
+- **Private Messaging:** Send and receive private messages.
 
-Download and run node js.
+## 🛠️ Technologies Used
 
-Open folder and navigate to client folder.
+- **Frontend:**
+  - **React.js**: For building the user interface.
+  - **HTML5**, **CSS3**, **JavaScript**: For web development.
+  - **BCrypt**: For password hashing.
 
-From here open terminal and do npm i
+- **Backend:**
+  - **Node.js**: For managing packages and running the server.
+  - **REST API**: For client-server communication.
 
-You might need to install a few packages
+- **Database:**
+  - **MongoDB**: For storing user data and application content.
 
-Then do npm start
+## 🗂️ File Structure
+
+```plaintext
+social-media-app/
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+├── server/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── server.js
+│   └── package.json
+└── README.md
+
 
 
